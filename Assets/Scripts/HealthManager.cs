@@ -27,7 +27,7 @@ public class HealthManager : MonoBehaviour
             TakeDamage(20);
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.RightShift))
         {
             Heal(5);
         }
